@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    font-family: "Quicksand";
+    margin: 0;
+}
+body {
+    background-color: #F0F4EF;
+    min-width: 700px;
+}
+.navbar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #BFCC94;
+  }
+  .navbar > div {
+      align-items: center;
+  }
+  .sex div{
+      float: left;
+      padding: 10px;
+      font-weight: bold;
+  }
+  .sex div:hover{
+    background-color: #0D1821;
+    color: white;
+    cursor: pointer;
+}
+.logo {
+    margin: auto;
+    font-size: 1.4em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.basket {
+    margin-right: 100px;
+    width: fit-content;
+    float: right;
+    cursor: pointer;
+}
+.log {
+    margin-right: 100px;
+    width: fit-content;
+    float: right;
+    cursor: pointer;
+}
+.menu {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    max-width: 1210px;
+    max-height: 30px;
+    height: 28px;
+    margin: 0 auto;
+    background-color: #BFCC94;
+  }
+.menu div {
+    margin: auto;
+}
+.menu div:hover {
+    border-bottom: solid 2px #0D1821;
+    cursor: pointer;
+}
+footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: #0D1821;
+    height: 30px;
+}
+footer div {
+    color: white;
+}
+.contact {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+.contact:hover {
+    border-bottom: solid 2px #F0F4EF;
+    cursor: pointer;
+}
+.media {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.media div {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.media div:hover {
+    border-bottom: solid 2px #F0F4EF;
+    cursor: pointer;
+}
+.home-content {
+    max-width: 1150px;
+    display: flex;
+    padding: 25px;
+    margin: auto;
+    justify-content: center;
+
+}
+.occasion {
+    display: flex;
+    width: 25%;
+    height: 544px;
+    border: solid black 1px;
+    margin: 10px;
+}
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; 
+  padding: 1rem 0.5rem;
+} 
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    padding: 1rem 0.5rem;
+  } 
+section {
+    width: 100%;
+    max-width: 450px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #BFCC94;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 1em;
+}
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Quicksand';
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+label,
+button {
+  margin-top: 1rem;
+}
+button {
+  padding: 0.5rem;
+}
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: black;
+    color: white;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+.offscreen {
+    position: absolute;
+    left: -100000px;
+}
+.hide {
+    display: none;
+}
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.line {
+    display: inline-block;
+}
+a, a:visited {
+    color: #000;
+}

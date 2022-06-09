@@ -130,9 +130,9 @@ const Register = () => {
                 </form>
                 <p>
                     Zarejstrowany?<br />
-                    <span className="line">
+                    <p>
                         <Link to="/login">Zaloguj się</Link>
-                    </span>
+                    </p>
                 </p>
             </section>
         </div>

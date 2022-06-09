@@ -110,19 +110,20 @@ footer div {
     justify-content: center;
 
 }
-.occasion {
-    display: flex;
+.product {
     width: 25%;
-    height: 544px;
-    border: solid black 1px;
+    height: fit-content;
     margin: 10px;
+}
+.product img {
+    height: 230px;
+    width: 230px;
 }
 .registration {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; 
   padding: 1rem 0.5rem;
 } 
 .login {
@@ -130,7 +131,6 @@ footer div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; 
     padding: 1rem 0.5rem;
   } 
 section {
@@ -141,6 +141,9 @@ section {
     flex-direction: column;
     padding: 1em;
     background-color: #BFCC94;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 form {
     display: flex;
@@ -201,6 +204,43 @@ button {
 .line {
     display: inline-block;
 }
-a, a:visited {
+div > a, div > a:visited p > a, p > a:visited {
     color: #000;
+}
+span > a {
+    color: white;
+    text-decoration: none;
+}
+.shopping-basket {
+    display: flexbox;
+    margin-left: 300px;
+    min-height: 200px;
+    margin: 10px;
+}
+.shopping-basket > div {
+    background-color:beige;
+    padding: 3px;
+    margin: auto;
+    margin-top: 20px;
+}
+.shopping-basket  div {
+
+    padding: 5px;
+}
+.shopping-basket h3 {
+    margin: auto;
+    margin-left: 650px;
+}
+.contact {
+    color: white;
+}
+.data {
+    background-color: #344966;
+    width: 600px;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
